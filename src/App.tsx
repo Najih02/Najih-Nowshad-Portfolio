@@ -6,12 +6,10 @@ import Projects from './sections/Projects'
 import Contact from './sections/Contact'
 import SmoothScroll from './components/SmoothScroll'
 import CustomCursor from './components/CustomCursor'
-import SEO from './components/SEO'
 
 function App() {
   return (
     <main className="bg-primary text-white selection:bg-accent-purple/30 selection:text-accent-cyan overflow-x-hidden cursor-none">
-      <SEO />
       <SmoothScroll />
       <CustomCursor />
       <ThreeBackground />
